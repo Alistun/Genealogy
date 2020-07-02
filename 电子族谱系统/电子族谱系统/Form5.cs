@@ -35,5 +35,6 @@ namespace 电子族谱系统
             form1.Show(); //form1显示出来
             this.Visible = false;
         }
+
     }
 }

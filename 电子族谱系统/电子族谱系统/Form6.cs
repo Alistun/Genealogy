@@ -35,5 +35,20 @@ namespace 电子族谱系统
             form1.Show(); //form1显示出来
             this.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            member member = new member();
+            member.Show();
+            this.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            genealogy genealogy = new genealogy();
+            genealogy.Show();
+            this.Visible = false;
+
+        }
     }
 }
