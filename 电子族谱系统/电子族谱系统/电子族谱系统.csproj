@@ -82,6 +82,30 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="genealogy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genealogy.Designer.cs">
+      <DependentUpon>genealogy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genmodify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genmodify.Designer.cs">
+      <DependentUpon>genmodify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infomogify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infomogify.Designer.cs">
+      <DependentUpon>infomogify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="member.Designer.cs">
+      <DependentUpon>member.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -101,6 +125,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genealogy.resx">
+      <DependentUpon>genealogy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genmodify.resx">
+      <DependentUpon>genmodify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infomogify.resx">
+      <DependentUpon>infomogify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="member.resx">
+      <DependentUpon>member.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
